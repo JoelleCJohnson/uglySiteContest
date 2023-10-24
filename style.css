@@ -1,0 +1,112 @@
+body {
+    background-image: url("./359520_1331684718145_272_186.jpg");
+}
+
+footer {
+    background-image: url("./0*yt7Mwvdb8e08xxhk.jpg");
+    border: 40px dotted blue;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size:xx-large;
+    color:red;
+    
+}
+
+header {
+    background-image: url("./images.png");
+    height: 20vh;
+    color: #FFFF00;
+    text-align: end;
+    margin: 0;
+    padding: 0%;
+    border: 40px dashed tan;
+    border-radius: 50%;
+}
+main {
+    background-image: url("./2432694_0.jpg");
+}
+
+div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-self: baseline;
+    flex-flow: wrap ;
+    border: 4rem double #E1AD01;
+    align-content: end;
+}
+#last {
+    align-items: end;
+}
+
+.words{
+    display: flex;
+    order: 3;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-items: center;
+}
+.f1 {
+    display: flex;
+    background-color: aqua;
+    height: 5vh;
+    text-align: end;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.f2{
+    display: flex;
+    text-align: center;
+    background-color: yellowgreen;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.f3{
+    display: flex;
+    text-align: start;
+    background-color: yellow;
+    height: 10vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#bird {
+    border: 9px dashed olive;
+    border-radius: 35%;
+    size: 10px;
+}
+#meme {
+   border: 7px solid orangered;
+   border-bottom-left-radius: 50%;
+   border-bottom-right-radius: 40%;
+   border-top-right-radius: 25%;
+   border-top-left-radius:15%;
+}
+
+#w2 {
+    text-align: left;
+    color: #4cc9f0;
+    background-color: bisque;
+}
+
+#w3 {
+    text-align: center;
+    color: #FFFF00;
+    background-color: red;
+}
+#w1 {
+    background-color: orange;
+
+}
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#winner {
+    background-color: magenta;
+    color: yellowgreen;
+    height: 5vh;
+}
